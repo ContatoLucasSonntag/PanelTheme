@@ -22,8 +22,8 @@ if [ ! -f "artisan" ]; then
 
     echo "Downloading the Theme you picked"
     mkdir -p tempdown && cd tempdown && git clone https://github.com/ContatoLucasSonntag/PanelTheme.git .
-    cp -r ContatoLucasSonntag/v1/public ..
-    cp -r ContatoLucasSonntag/v1/resources ..
+    cp -r PanelTheme/v1/public ..
+    cp -r PanelTheme/BlackEndSpace/resources ..
 
     echo "Files have been copied over!"
     sleep 2
