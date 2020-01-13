@@ -1,4 +1,9 @@
 if [ ! -f "artisan" ]; then
+    echo "Could not find the Artisan file, Moving to Default Location."
+    cd /var/www/pterodactyl
+fi
+
+if [ ! -f "artisan" ]; then
     echo "We tried to find your Artisan file but we couldnt, Please move to the directory you installed the Panel and re-run this script. Have a Good Day!"
     cd /var/www/pterodactyl
     else
